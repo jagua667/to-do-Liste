@@ -1,0 +1,79 @@
+/* Grundlegendes Styling für den gesamten Körper der Seite */
+body {
+    font-family: Arial, sans-serif;
+    /* Setzt die Schriftart auf Arial (fallback auf sans-serif, falls Arial nicht verfügbar ist) */
+    margin: 20px;
+    /* Fügt einen Abstand von 20px zum Rand der Seite hinzu */
+}
+
+/* Styling für das Eingabefeld (für neue Aufgaben) */
+input {
+    padding: 5px;
+    /* Fügt einen Innenabstand (Padding) von 10px im Eingabefeld hinzu */
+    width: 200px;
+    /* Setzt die Breite des Eingabefeldes auf 200px */
+    outline: none;
+
+}
+
+/* Styling für den Hinzufügen-Button */
+button {
+    border: none;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+/* Styling für den Button im Hover-Zustand (wenn der Benutzer mit der Maus darüber fährt) */
+button:hover {
+    background-color: #45a049;
+    /* Ändert den Hintergrund des Buttons bei Hover zu einem dunkleren Grünton */
+}
+
+/* Styling für die ungeordnete Liste (ul) */
+ul {
+    list-style-type: none;
+    /* Entfernt die Standard-Aufzählungszeichen (Punkte) der Liste */
+    padding-left: 0;
+    /* Entfernt die standardmäßige Einrückung der Liste */
+    width: 600px;
+}
+
+/* Styling für jedes Listenelement (li) */
+li {
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    /* Aktiviert Flexbox */
+
+    align-items: center;
+    /* Vertikale Ausrichtung der Inhalte */
+}
+
+/* Styling für den Text innerhalb des Listenelements */
+li span {
+    flex: 1;
+    /* Nutzt den verfügbaren Platz für den Text */
+}
+
+/* Styling für die Buttons innerhalb der Listeneinträge */
+li button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#addBtn:hover {
+    background-color: #6d796e;
+    color: #f1f1f1;
+}
+
+#addBtn {
+    cursor: pointer;
+
+}
